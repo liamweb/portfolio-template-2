@@ -1,0 +1,145 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #f0f8ff;
+  font-family: "Nunito", sans-serif;
+}
+
+h4 {
+  color: #b22222;
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+p {
+  color: #303030;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #383838;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.btnstyle {
+  white-space: normal;
+  word-wrap: break-word;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  background-color: #383838;
+  overflow: hidden;
+}
+
+.footer-content {
+  padding: 2rem 0;
+}
+
+#mainNavbar .nav-link {
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: #f0f8ff;
+  padding: 10px 0px;
+  margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+}
+
+#mainNavbar .nav-link:hover {
+  opacity: 1;
+  color: #f0f8ff;
+}
+
+#mainNavbar .nav-link::before {
+  transition: 300ms;
+  height: 3px;
+  content: "";
+  position: absolute;
+  background-color: #b22222;
+}
+
+#mainNavbar .nav-link-ltr::before {
+  width: 0%;
+  bottom: 15px;
+}
+
+#mainNavbar .nav-link-ltr:hover::before {
+  width: 100%;
+}
+
+#mainNavbar .navbar-brand {
+  color: #f0f8ff;
+}
+
+#name h1 {
+  color: #303030;
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+#span {
+  color: #b22222;
+}
+
+#imagefx {
+  /* border-radius: 1000px; */
+  width: 100%;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all 0.8s ease-in-out;
+}
+
+#imagefx:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+.navbar.scrolled {
+  background: #303030;
+  transition: background 1s;
+}
+
+@media only screen and (max-width: 990px) {
+  .toph1 {
+    margin-top: 9px;
+  }
+}
+
+@media (max-width: 1200px) {
+  #name h1 {
+    color: #303030;
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}
